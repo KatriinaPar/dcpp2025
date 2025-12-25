@@ -20,7 +20,7 @@ OpenAI states that traditional classifiers can have high performance, with low l
 
 # Online safety and digital commons
 
-ROOST has stated that they develop open source safety tools 
+ROOST has stated that they develop AI and safety tools with an open source model to benefit from interoperability, support informed governance, and make technology development more efficient. The partnership with OpenAI is said to improve real-world safety as the risk is not as oncentrated as it is in closed systems. Similarly to digital commons, small-scale developers can access resources they may not usually have access to and they do not need to rely on off-the-shelf solutions that are not suited for specific needs.
 
 ## Elinor Ostrom’s 8 principles for governing the commons
 

@@ -23,8 +23,8 @@ The companies say that developers can draw policy lines that best fit their use 
 # Conclusion
 
 # References
-Hugging Face: https://huggingface.co/collections/openai/gpt-oss-safeguard
-OpenAI Product Release: https://openai.com/index/introducing-gpt-oss-safeguard/
+Hugging Face: https://huggingface.co/collections/openai/gpt-oss-safeguard  
+OpenAI Product Release: https://openai.com/index/introducing-gpt-oss-safeguard/  
 ROOST.tools press release: https://roost.tools/blog/a-new-milestone-for-open-source-safety-infrastructure-and-transparency/
 
 Your content goes here. Please use [markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) for formating.

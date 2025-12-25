@@ -16,9 +16,11 @@ Alongside the model, a ROOST Model Community (RMC) repository was published on G
 
 With the gpt-oss-safeguard developers can draw policy lines that best fit their use case, the model explains how the content is classified under the given policy, and developers can then decide if they want to use the model conclusion in their safety pipelines. It differs from traditional safety classifiers by interpreting the policy at the time it is passed into the model instead of training the model on a large number of labeled examples. This creates a level of flexibility, as the models output is also explained, allowing for a more iterative process where the input can be tweaked for the model to interpret it more accurately. 
 
-OpenAI states that traditional classifiers can have high performance, with low latency and operating costs, but gathering sufficient training examples can be costly and time-consuming, and the classifier needs to be re-trained if the policy is updated or changed. From a product perspective, a model that can intake any policy to apply reasoning to is not only more efficient, but also safer as content online is ever-evolving and there may be a lag between the classifiers and new content. However, this can also increase the compute costs and latency, so there remains a trade-off.
+OpenAI states that traditional classifiers can have high performance, with low latency and operating costs, but gathering sufficient training examples can be costly and time-consuming, and the classifier needs to be re-trained if the policy is updated or changed. From a product perspective, a model that can intake any policy to apply reasoning to is not only more efficient, but also safer as content online is ever-evolving and there may be a lag between the classifiers and new content. However, this can also increase the compute costs and latency. OpenAI has also stated that the traditional dedicated classifiers still perform better which may be preferred for complex risks, so there remains trade-offs.
 
 # Online safety and digital commons
+
+ROOST has stated that they develop open source safety tools 
 
 ## Elinor Ostrom’s 8 principles for governing the commons
 

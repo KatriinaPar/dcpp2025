@@ -40,6 +40,35 @@ This principle is strongly aligned as bring-your-own-policy acts as the basis fo
 Alignment with second principle: **strong**.
 
 
+### 3. User participation and decision-making
+
+The ability to change and influence the rules by which the model is developed appears to have been outsourced to ROOST. In their product release post, OpenAI states that ROOST is launching the model community, RMC, whereas OpenAI is only publishing a short technical report to detail the safety perfomance of the preview model.
+
+It seems that there is collective influence informally, such as the stated cooperation at identifying developer needs, testing the model and producing developer documentation when the model was first developed, and now the continuing community engagement driven by ROOST. However, there appears to be a lack of formalized mechanisms for contibutors to influence upstream design decisions or the roadmap priorities at OpenAI.  It therefore remains unclear how much community members are able to participate in the decision making process.
+
+
+Alignment with third principle: **partial**.
+
+### 4. Monitoring
+
+There are two identified levels for monitoring of the models: one by the community RMC (and other developers contributing on GitHub) and one by OpenAI.
+
+The community monitoring works similarly to the commons in general, with code released in a GitHub repository abd Hugging Face, allowing collaborative issue tracking, bug resolution and overall sharing of knowledge more freely. Researchers and developers can also make their own analyses and comparisons to establish performance and limitations according to their benchmarks. There are also additional communities, such as the OpenAI developer community, that can be used for cooperation and collaboration. Overall, these open communities foster accountability and effective monitoring.
+
+OpenAI's approach to monitoring of the model is unclear, as established in principle 3, but it can be assumed that they have their own evaluation protocols they enforce. Since the source code is not published, there are likely monitoring capabilities built-in or an internal accountability framework. It is also important to raise that the model itself is designed to be accountable by providing reasoning for its decisions, so it can be argued that monitoring is inherent in the model.
+
+Alignment with fourth principle: **strong**.
+
+### 5. Graduated sanctions
+
+This principle is difficult to assess as the model is new and the use cases are limited. There is no specific mention of sanctions on either ROOST or OpenAI sites or other mentions actions to be taken. This could also be due the model being published as a research preview first, making its expected user base a homogeneous group that may not require the same type of sanctioning. 
+
+OpenAI has entity-level usage policies it says applies to all its products, however how these are enforced in the gpt-oss environment remains unclear. There has been criticism in the developer community that the models are "obsessed" with the content policy where its impacting the model performance. A game developer in a Hugging Face community post said that the model they used (openai/gpt-oss-20b) started to be suspicious of the input and whether is complied with the content policy to the point where is forgot some of the context it was meant to consider.
+
+Overall the sanctioning principle remains unclear, but there seems to be a strong correlation with the overall OpenAI use policy.
+
+Alignment with fourth principle: **weak/unclear**.
+
 ## Improvements and recommendations
 
 # Conclusion
@@ -48,7 +77,10 @@ Alignment with second principle: **strong**.
 Hugging Face: https://huggingface.co/collections/openai/gpt-oss-safeguard  
 OpenAI Product Release: https://openai.com/index/introducing-gpt-oss-safeguard/  
 ROOST.tools press release: https://roost.tools/blog/a-new-milestone-for-open-source-safety-infrastructure-and-transparency/  
-Reddit on open-weight v. open-source: https://www.reddit.com/r/opensource/comments/1mkqajs/how_can_gptoss_be_called_open_source_and_have_a/
+Reddit on open-weight v. open-source: https://www.reddit.com/r/opensource/comments/1mkqajs/how_can_gptoss_be_called_open_source_and_have_a/  
+Elinor Ostrom & 8 rules for managing the Commons: https://tn.boell.org/en/2023/04/19/5-elinor-ostrom-et-les-huit-principes-de-gestion-des-communs  
+OpenAI Developer Community: https://community.openai.com/t/fyi-to-stay-up-to-date-with-gtp-oss-changes-check-the-openai-github-repositories/1335535  
+OpenAI usage policy: https://openai.com/policies/usage-policies/
 
 Your content goes here. Please use [markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) for formating.
 # title 1

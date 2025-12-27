@@ -1,7 +1,6 @@
 ---
-student_name: [Katriina Parkkinen]
-topic: [How does the open weight model from gpt-oss-safeguard and ROOST align 
-with digital commons and can online safety be community-led?]
+student_name: Katriina Parkkinen
+topic: How does the open weight model from gpt-oss-safeguard and ROOST align with digital commons and can online safety be community-led?
 ---
 
 # Introduction
@@ -24,6 +23,23 @@ ROOST has stated that they develop AI and safety tools with an open source model
 
 ## Elinor Ostrom’s 8 principles for governing the commons
 
+The gpt-oss-safeguard is assessed using the eight principles for governing the commons. This is aimed at looking what about this model works and what may need improvements with the goal of fairly assessing the model as a potential commons when creating policy. 
+
+### 1. Clearly defined boundaries
+
+The weights of the model are publicly available under the Apache 2.0 license, similarly to the previously published gpt-oss models. However, it does not fully qualify as a digital commons since the full training data, source code for the training process, and the specific methodology in developing the model are not publicly accessible. It is therefore more open-weight rather than open-source, wording which is also debated in communities such as Reddit asking why it's marketed as open-source when it does not fully qualify the definition. This further separates the model from being a digital commons.
+
+The access to the resource is therefore also separated. Anyone can access the weights, but the ultimate governing community appears to be OpenAI. It's also unclear to what extent the community is able to influence the project as it is still new and unestablished. 
+
+Alignment with first principle: **partial**.
+
+### 2. Rules fit local needs
+
+This principle is strongly aligned as bring-your-own-policy acts as the basis for adapting the safeguards to the local and cultural norms of the project. From the publications from both OpenAi and ROOST, this customization has been the key design principle for the project.
+
+Alignment with second principle: **strong**.
+
+
 ## Improvements and recommendations
 
 # Conclusion
@@ -31,7 +47,8 @@ ROOST has stated that they develop AI and safety tools with an open source model
 # References
 Hugging Face: https://huggingface.co/collections/openai/gpt-oss-safeguard  
 OpenAI Product Release: https://openai.com/index/introducing-gpt-oss-safeguard/  
-ROOST.tools press release: https://roost.tools/blog/a-new-milestone-for-open-source-safety-infrastructure-and-transparency/
+ROOST.tools press release: https://roost.tools/blog/a-new-milestone-for-open-source-safety-infrastructure-and-transparency/  
+Reddit on open-weight v. open-source: https://www.reddit.com/r/opensource/comments/1mkqajs/how_can_gptoss_be_called_open_source_and_have_a/
 
 Your content goes here. Please use [markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) for formating.
 # title 1

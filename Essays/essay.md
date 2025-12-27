@@ -67,7 +67,7 @@ OpenAI has entity-level usage policies it says applies to all its products, howe
 
 Overall the sanctioning principle remains unclear, but there seems to be a strong correlation with the overall OpenAI use policy.
 
-Alignment with fourth principle: **weak/unclear**.
+Alignment with fifth principle: **weak/unclear**.
 
 ## Improvements and recommendations
 

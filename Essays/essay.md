@@ -65,7 +65,7 @@ This principle is difficult to assess as the model is new and the use cases are 
 
 OpenAI has entity-level usage policies it says applies to all its products, however how these are enforced in the gpt-oss environment remains unclear. There has been criticism in the developer community that the models are "obsessed" with the content policy where its impacting the model performance. A game developer in a Hugging Face community post said that the model they used (openai/gpt-oss-20b) started to be suspicious of the input and whether is complied with the content policy to the point where is forgot some of the context it was meant to consider.
 
-Overall the sanctioning principle remains unclear, but there seems to be a strong correlation with the overall OpenAI use policy.
+Overall the sanctioning principle remains unclear, but there seems to be a strong correlation with the overall OpenAI use policy. It is unclear if the responses are proportonal to the violations.
 
 Alignment with fifth principle: **weak/unclear**.
 
@@ -81,10 +81,3 @@ Reddit on open-weight v. open-source: https://www.reddit.com/r/opensource/commen
 Elinor Ostrom & 8 rules for managing the Commons: https://tn.boell.org/en/2023/04/19/5-elinor-ostrom-et-les-huit-principes-de-gestion-des-communs  
 OpenAI Developer Community: https://community.openai.com/t/fyi-to-stay-up-to-date-with-gtp-oss-changes-check-the-openai-github-repositories/1335535  
 OpenAI usage policy: https://openai.com/policies/usage-policies/
-
-Your content goes here. Please use [markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) for formating.
-# title 1
-
-## title 2
-
-I love **EU**

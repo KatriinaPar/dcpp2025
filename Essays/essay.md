@@ -55,7 +55,7 @@ There are two identified levels for monitoring of the models: one by the communi
 
 The community monitoring works similarly to the commons in general, with code released in a GitHub repository abd Hugging Face, allowing collaborative issue tracking, bug resolution and overall sharing of knowledge more freely. Researchers and developers can also make their own analyses and comparisons to establish performance and limitations according to their benchmarks. There are also additional communities, such as the OpenAI developer community, that can be used for cooperation and collaboration. Overall, these open communities foster accountability and effective monitoring.
 
-OpenAI's approach to monitoring of the model is unclear, as established in principle 3, but it can be assumed that they have their own evaluation protocols they enforce. Since the source code is not published, there are likely monitoring capabilities built-in or an internal accountability framework. It is also important to raise that the model itself is designed to be accountable by providing reasoning for its decisions, so it can be argued that monitoring is inherent in the model.
+OpenAI's approach to monitoring of the model is unclear, as established in principle 3, but it can be assumed that they have their own evaluation protocols they enforce. Since the source code is not published, there are likely monitoring capabilities built-in or an internal accountability framework. This is also echoed when OpenAI stated that the safeguard model is an open-weight implementation of an internal approach, meaning that before the weights are a result of iterative, closed development which may have stricter monitoring. It is also important to raise that the model itself is designed to be accountable by providing reasoning for its decisions, so it can be argued that monitoring is inherent in the model.
 
 Alignment with fourth principle: **strong**.
 
@@ -63,15 +63,39 @@ Alignment with fourth principle: **strong**.
 
 This principle is difficult to assess as the model is new and the use cases are limited. There is no specific mention of sanctions on either ROOST or OpenAI sites or other mentions actions to be taken. This could also be due the model being published as a research preview first, making its expected user base a homogeneous group that may not require the same type of sanctioning. 
 
-OpenAI has entity-level usage policies it says applies to all its products, however how these are enforced in the gpt-oss environment remains unclear. There has been criticism in the developer community that the models are "obsessed" with the content policy where its impacting the model performance. A game developer in a Hugging Face community post said that the model they used (openai/gpt-oss-20b) started to be suspicious of the input and whether is complied with the content policy to the point where is forgot some of the context it was meant to consider.
+OpenAI has entity-level usage policies it says applies to all its products, however how these are enforced in the gpt-oss environment remains unclear. There has been criticism in the developer community that the models are "obsessed" with the content policy where its impacting the model performance. A game developer in a Hugging Face community post said that the model they used (openai/gpt-oss-20b) started to be suspicious of the input and whether is complied with the content policy to the point where is forgot some of the context it was meant to consider. 
 
 Overall the sanctioning principle remains unclear, but there seems to be a strong correlation with the overall OpenAI use policy. It is unclear if the responses are proportonal to the violations.
 
 Alignment with fifth principle: **weak/unclear**.
 
-## Improvements and recommendations
+### 6. Conflict resolution
+
+Building upon the previous principles, the unclear community structure also makes assising the sixth principle difficult. Based on the product releases, there is no built-in dispute resolution process. ROOST supports an informal community forum but this can be an informal resolution channel so its effectiveness is unclear. 
+
+Alignment with sixth principle: **weak/unclear**.
+
+### 7. Right to organize
+
+This principle can be layered depending on how its looked at (as AI or as code or as a safety tool) and who uses it. In the EU, this could be an alternative or a tool for "trusted flaggers", special entities under the DSA, who are responsible for flagging illegal content to online platform providers. This provides a potentially large benefit as it could make the governance of online safety more robust. 
+
+However, there are still open questions about how this fits under the EU AI act (e.g. potential classificiation as a high risk system and this effects development), if the explanation provided is transparent enough, and if it can be supported as a commons.
+
+Alignment with seventh principle: **moderate**
+
+### 8. Embedded in larger networks
+
+Integrating oss-safeguard into layered governance structures is still emerging and therefore needs time to be realised. However for ROOST this is more clear with them being the larger ecosystem that is governing online safety. They can also then better function in larger networks themselves. It remains to be seen how well the safeguard model can embedded, but from a smaller organisation perspecive it does appear more likely.
+
+Alignment with eighth principle: **moderate**
 
 # Conclusion
+
+Governing online safety as a commons or framing online safety as a digital commons allows it to become a shared resource, benefit from shared governance and has the potential for combating rising harms faster and more efficiently. The gpt-oss-safeguard model is a way to make online safety a more accessible issue which hopefully raises it as a priority and an issue people want to work on. However, these are still structural tensions from when this tool is intoduced by a big tech company, and how it can be governed as a commons. 
+
+The open weight model is aimed at smaller entities where developers are able to input their own policy and see how well content can be moderated based on it. The model is however less robust than bespoke classifiers which makes it a less suitable choice for larger entities. It also does not fit the criteria of being a digital commons. It is strongly aligned with fitting local needs and monitoring, but falls short on the remaining principles.
+
+The unclear governance structure remains an issue with the model. To become an efficient digital commons, the boundaries need to be strenghthen along with the decision-making structure. This can make the community more willing to develop the commons as there is clarity, members feel like their contribution matters, and the whole project is not only seen as being controlled by big tech.
 
 # References
 Hugging Face: https://huggingface.co/collections/openai/gpt-oss-safeguard  
@@ -80,4 +104,6 @@ ROOST.tools press release: https://roost.tools/blog/a-new-milestone-for-open-sou
 Reddit on open-weight v. open-source: https://www.reddit.com/r/opensource/comments/1mkqajs/how_can_gptoss_be_called_open_source_and_have_a/  
 Elinor Ostrom & 8 rules for managing the Commons: https://tn.boell.org/en/2023/04/19/5-elinor-ostrom-et-les-huit-principes-de-gestion-des-communs  
 OpenAI Developer Community: https://community.openai.com/t/fyi-to-stay-up-to-date-with-gtp-oss-changes-check-the-openai-github-repositories/1335535  
-OpenAI usage policy: https://openai.com/policies/usage-policies/
+OpenAI usage policy: https://openai.com/policies/usage-policies/  
+EU trusted flaggers: https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa  
+EU AI Act: https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence

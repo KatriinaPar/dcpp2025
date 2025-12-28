@@ -13,7 +13,7 @@ Alongside the model, a ROOST Model Community (RMC) repository was published on G
 
 ## How it works
 
-Traditional classifiers rely on large, labeled datasets that are based on fixed policies. Gpt-oss-safeguard interprets the policy in real-time, provides reasoning on how the content aligns with the policy and its classification decision, which can then be passed into the safety pipeline. This creates a level of flexibility, as input can be tweaked iteratively without retraining the model. 
+Traditional classifiers rely on large, labelled datasets that are based on fixed policies. Gpt-oss-safeguard interprets the policy in real-time, provides reasoning on how the content aligns with the policy and its classification decision, which can then be passed into the safety pipeline. This creates a level of flexibility, as input can be tweaked iteratively without retraining the model. 
 
 OpenAI states that traditional classifiers can have high performance, with low latency and operating costs, but gathering sufficient training examples can be costly and time-consuming, and the classifier needs to be re-trained if the policy is updated or changed. From a product perspective, gpt-oss-safeguard can be more efficient and safer as content online evolves and there may be a lag between classifiers and new content, but increases the compute costs and latency. OpenAI acknowledged that the traditional dedicated classifiers still perform better which may be preferred for complex risks, so there remains trade-offs.
 
@@ -25,7 +25,7 @@ The model is evaluated using Elinor Ostrom's eight principles for governing the 
 
 ### 1. Clearly defined boundaries
 
-The model weights are publicly avaialble under an open licence, but the full training data, source code, and development methodology are not disclosed. It is more open-weight than open-source, wording which is also debated in Reddit communities asking why it's marketed as open-source when it does not fully qualify the definition. The ultimate control appears to remain with OpenAI, influence of community is unclear.
+The model weights are publicly available under an open licence, but the full training data, source code, and development methodology are not disclosed. It is more open-weight than open-source, wording which is also debated in Reddit communities asking why it's marketed as open-source when it does not fully qualify the definition. The ultimate control appears to remain with OpenAI, with influence of community being unclear.
 
 Alignment: **partial**.
 
@@ -38,7 +38,7 @@ Alignment: **strong**.
 
 ### 3. User participation and decision-making
 
-Community engagement is primarily done through RMC whereas OpenAI only published a technical report on model performance. The ability to participate in decision making processes is unclear as there are no formalized mechanisms for contibutors to influence upstream design decisions or the roadmap priorities at OpenAI. 
+Community engagement is primarily done through RMC whereas OpenAI only published a technical report on model performance. The ability to participate in decision making processes is unclear as there are no formalized mechanisms for contributors to influence upstream design decisions or the roadmap priorities at OpenAI. 
 
 Alignment: **partial**.
 
@@ -78,7 +78,7 @@ Alignment: **partial**
 
 # Conclusion
 
-Framing online safety as a digital commons positions it as a shared responsibility. The gpt-oss-safeguard model contributes to this vision by lowering barriers to entry and enabling flecible, policy-driven moderation for smaller developers and organizations.
+Framing online safety as a digital commons positions it as a shared responsibility. The gpt-oss-safeguard model contributes to this vision by lowering barriers to entry and enabling flexible, policy-driven moderation for smaller developers and organizations.
 
 There are still structural tensions from the model being released by a big tech company and how this effects it being supported as a commons. It's also less suitable for larger organizations at the moment. 
 

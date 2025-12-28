@@ -1,6 +1,6 @@
 ---
 student_name: Katriina Parkkinen
-topic: How does the open weight model from gpt-oss-safeguard and ROOST align with digital commons and can online safety be community-led?
+topic: How does the open weight model from gpt-oss-safeguard and ROOST align with digital commons?
 ---
 
 # Introduction
@@ -84,13 +84,22 @@ There are still structural tensions from the model being released by a big tech 
 
 The lack of clear boundaries between corporate control and community governance limits the ability of the model to function as a digitial commons. It requires clearer governance structures, stronger community influence and transparent boundaries. Addressing these gaps could increase trust, encourage contribution and reduce the perception that it's controlled by big tech rather than being for the good of the community. 
 
+  
 # References
-Hugging Face: https://huggingface.co/collections/openai/gpt-oss-safeguard  
-OpenAI Product Release: https://openai.com/index/introducing-gpt-oss-safeguard/  
-ROOST.tools press release: https://roost.tools/blog/a-new-milestone-for-open-source-safety-infrastructure-and-transparency/  
-Reddit on open-weight v. open-source: https://www.reddit.com/r/opensource/comments/1mkqajs/how_can_gptoss_be_called_open_source_and_have_a/  
-Elinor Ostrom & 8 rules for managing the Commons: https://tn.boell.org/en/2023/04/19/5-elinor-ostrom-et-les-huit-principes-de-gestion-des-communs  
-OpenAI Developer Community: https://community.openai.com/t/fyi-to-stay-up-to-date-with-gtp-oss-changes-check-the-openai-github-repositories/1335535  
-OpenAI usage policy: https://openai.com/policies/usage-policies/  
-EU trusted flaggers: https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa  
-EU AI Act: https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence
+Alder, Jessica. “Content Policy Obsessed Model at Expense of Intelligence and Context Following.” Huggingface.co, 5 Aug. 2025, huggingface.co/openai/gpt-oss-20b/discussions/20. Accessed 28 Dec. 2025.  
+  
+European Commission. “Trusted Flaggers under the Digital Services Act (DSA) | Shaping Europe’s Digital Future.” Digital-Strategy.ec.europa.eu, 19 Dec. 2025, digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa.European Parliament. “EU AI Act: First Regulation on Artificial Intelligence.”   
+  
+European Parliament, 19 Feb. 2025, www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence.  
+  
+Heinrich Böll Stiftung. “5. Elinor Ostrom & 8 Rules for Managing the Commons | Heinrich-Böll-Stiftung | Tunisia - Tunis.” Tn.boell.org, 3 June 2023, tn.boell.org/en/2023/04/19/5-elinor-ostrom-et-les-huit-principes-de-gestion-des-communs.  
+  
+Hugging Face. “Gpt-Oss-Safeguard - a Openai Collection.” Huggingface.co, 29 Oct. 2025, huggingface.co/collections/openai/gpt-oss-safeguard. Accessed 28 Dec. 2025.  
+  
+OpenAI. “Introducing Gpt-Oss-Safeguard.” Openai.com, 29 Oct. 2025, openai.com/index/introducing-gpt-oss-safeguard/.  
+  
+OpenAI. “Usage Policies.” Openai.com, 29 Oct. 2025, openai.com/policies/usage-policies/.  
+  
+Reddit. “How Can Gpt-Oss Be Called “Open Source” and Have a Apache 2.0 License?” Reddit.com, July 2025, www.reddit.com/r/opensource/comments/1mkqajs/how_can_gptoss_be_called_open_source_and_have_a/. Accessed 28 Dec. 2025.  
+  
+ROOST. “A New Milestone for Open Source Safety Infrastructure and Transparency: Gpt-Oss-Safeguard.” Roost.tools, 29 Oct. 2025, roost.tools/blog/a-new-milestone-for-open-source-safety-infrastructure-and-transparency/. Accessed 28 Dec. 2025.

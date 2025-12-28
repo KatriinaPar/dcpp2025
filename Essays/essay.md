@@ -25,72 +25,64 @@ The model is evaluated using Elinor Ostrom's eight principles for governing the 
 
 ### 1. Clearly defined boundaries
 
-The weights of the model are publicly available under the Apache 2.0 license, similarly to the previously published gpt-oss models. However, it does not fully qualify as a digital commons since the full training data, source code for the training process, and the specific methodology in developing the model are not publicly accessible. It is therefore more open-weight rather than open-source, wording which is also debated in communities such as Reddit asking why it's marketed as open-source when it does not fully qualify the definition. 
+The model weights are publicly avaialble under an open licence, but the full training data, source code, and development methodology are not disclosed. It is more open-weight than open-source, wording which is also debated in Reddit communities asking why it's marketed as open-source when it does not fully qualify the definition. The ultimate control appears to remain with OpenAI, influence of community is unclear.
 
-The access to the resource is therefore also separated. Anyone can access the weights, but the ultimate governing community appears to be OpenAI. It's also unclear to what extent the community is able to influence the project as it is still new and unestablished. 
-
-Alignment with first principle: **partial**.
+Alignment: **partial**.
 
 ### 2. Rules fit local needs
 
-This principle is strongly aligned as bring-your-own-policy acts as the basis for adapting the safeguards to the local and cultural norms of the project. From the publications from both OpenAi and ROOST, this customization has been the key design principle for the project.
+Bring-your-own-policy acts as the basis for adapting the safeguards to the local and cultural norms of each project. From the publications from both OpenAI and ROOST, this customization has been the key design principle for the project.
 
-Alignment with second principle: **strong**.
+Alignment: **strong**.
 
 
 ### 3. User participation and decision-making
 
-The ability to change and influence the rules by which the model is developed has been outsourced to ROOST. In their product release post, OpenAI states that ROOST is launching the model community, RMC, whereas OpenAI is only publishing a short technical report to detail the safety perfomance of the preview model.
+Community engagement is primarily done through RMC whereas OpenAI only published a technical report on model performance. The ability to participate in decision making processes is unclear as there are no formalized mechanisms for contibutors to influence upstream design decisions or the roadmap priorities at OpenAI. 
 
-It seems that there is collective influence informally but there appears to be a lack of formalized mechanisms for contibutors to influence upstream design decisions or the roadmap priorities at OpenAI.  It therefore remains unclear how much community members are able to participate in the decision making process.
-
-Alignment with third principle: **partial**.
+Alignment: **partial**.
 
 ### 4. Monitoring
 
-There are two identified levels for monitoring of the models: one by RMC (and other contributors) and one by OpenAI.
+Monitoring occurs at two levels: community driven and internal. 
 
-The community monitoring works similarly to the commons in general, with code released in a GitHub repository and Hugging Face, allowing collaborative issue tracking, bug resolution and overall sharing of knowledge more freely. Researchers and developers can also make their own analyses and comparisons to establish performance and limitations according to their benchmarks. Overall, these open communities foster accountability and effective monitoring. It can also be argued that monitoring is inherent in the model as it provides real-time reasoning. 
+The open repository allows for collaborative issue tracking, bug resolution and independent evaluation, fostering accountability. It can also be argued that monitoring is inherent in the model as it provides real-time reasoning. 
 
-OpenAI's approach to monitoring of the model is unclear but it can be assumed that they have their own evaluation protocols. Since the source code is not published, there are likely monitoring capabilities built-in or an internal accountability framework. This is also echoed when OpenAI stated that the safeguard model is an open-weight implementation of an internal approach, meaning that the weights are a result of iterative, closed development which may have stricter monitoring. 
+OpenAI's internal monitoring processes are not disclosed, but they described the model as an open-weight version of an internally developed system, suggesting stricter monitoring during development.
 
-Alignment with fourth principle: **partial/strong**.
+Alignment: **partial/strong**.
 
 ### 5. Graduated sanctions
 
-This principle is difficult to assess as the model is new and the use cases are limited. There is no specific mention of sanctions on either ROOST or OpenAI sites. This could be due the model being published as a research preview first, making its expected user base a homogeneous group that may not require the same type of sanctioning. 
+Sanctioning mechanisms are largely undefined and there are no mention of them on either ROOST or OpenAI sites. OpenAI has entity-level usage policies it says applies to all its products. There has been criticism in the developer community that the models are "obsessed" with these policies, impacting the model performance. This raises concerns about balance and proportionality. 
 
-OpenAI has entity-level usage policies it says applies to all its products, however how these are enforced in the gpt-oss environment remains unclear. There has been criticism in the developer community that the models are "obsessed" with the content policy where its impacting the model performance. A game developer in a Hugging Face community post said that the model they used (openai/gpt-oss-20b) started to be suspicious of the input and whether is complied with the content policy to the point where it forgot some of the context it was meant to consider. 
-
-Alignment with fifth principle: **weak/unclear**.
+Alignment: **weak/unclear**.
 
 ### 6. Conflict resolution
 
-Based on the product releases, there is no built-in dispute resolution process. ROOST supports an informal community forum but this is an informal resolution channel so its effectiveness is unclear. 
+There is no built-in dispute resolution process. ROOST supports an informal community forum but its effect as a resolution mechanism remains uncertain. 
 
-Alignment with sixth principle: **weak/unclear**.
+Alignment: **weak/unclear**.
 
 ### 7. Right to organize
 
-This principle can be layered depending on how its looked at (as AI or as code or as a safety tool) and who uses it. In the EU, this could be an alternative or a tool for "trusted flaggers", special entities under the DSA, who are responsible for flagging illegal content to online platform providers. This provides a potentially large benefit as it could make the governance of online safety more robust. 
+The model has potential relevance for regulating entities, such as a tool or alternative to "trusted flaggers", special entities under the EU DSA, potentially making online safety governance more robust. However, regulatory uncertainties remain, such as tranparency standards or classification under the EU AI Act. 
 
-However, there are still open questions about how this fits under the EU AI act (e.g. potential classificiation as a high risk system), if the explanation provided is transparent enough, and if it can be supported as AI innovation.
-
-Alignment with seventh principle: **partial**
+Alignment: **partial**
 
 ### 8. Embedded in larger networks
 
-Integrating oss-safeguard into layered governance structures is still emerging and therefore needs time to be realised. For ROOST this is more clear with them being a larger community that is governing online safety. They can also then better function in larger networks themselves. The safeguard model can likely be embedded into smaller organizations better.
+The model appears to be better suited to smaller organizations and ROOST is better positioned within the online safety ecosystem to support this principle. However, the model is still new so its integration is unclear. 
 
-Alignment with eighth principle: **partial**
+Alignment: **partial**
 
 # Conclusion
 
-Governing online safety as a commons or framing online safety as a digital commons allows it to become a shared resource, benefit from shared governance and has the potential for combating rising harms faster and more efficiently. The gpt-oss-safeguard model is a way to make online safety a more accessible issue which hopefully raises it as a priority and an issue people want to work on. However, these are still structural tensions from when this tool is intoduced by a big tech company, and how it can be governed as a commons. 
+Framing online safety as a digital commons positions it as a shared responsibility. The gpt-oss-safeguard model contributes to this vision by lowering barriers to entry and enabling flecible, policy-driven moderation for smaller developers and organizations.
 
-The open weight model is aimed at smaller entities where developers are able to input their own policy and see how well content can be moderated based on it. The model is however less robust than bespoke classifiers which makes it a less suitable choice for larger entities. 
+There are still structural tensions from the model being released by a big tech company and how this effects it being supported as a commons. It's also less suitable for larger organizations at the moment. 
 
-The unclear governance structure remains an issue with the model. It is strongly aligned with fitting local needs and monitoring, but falls short on the remaining principles. To become an efficient digital commons, the boundaries need to be strenghthen along with the decision-making structure. This can make the community more willing to develop the commons as there is clarity, members feel like their contribution matters, and the whole project is not only seen as being controlled by big tech. 
+The lack of clear boundaries between corporate control and community governance limits the ability of the model to function as a digitial commons. It requires clearer governance structures, stronger community influence and transparent boundaries. Addressing these gaps could increase trust, encourage contribution and reduce the perception that it's controlled by big tech rather than being for the good of the community. 
 
 # References
 Hugging Face: https://huggingface.co/collections/openai/gpt-oss-safeguard  
